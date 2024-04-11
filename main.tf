@@ -1,6 +1,6 @@
 resource "azurerm_resource_group" "example-rg" {
   name = var.resource_group_name
-  location = var.vm_loctaion
+  location = "east us"
 }
 resource "azurerm_virtual_machine" "example" {
   name                  = var.vm_name
