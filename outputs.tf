@@ -1,13 +1,9 @@
-# outputs.tf
-
-output "resource_group_id" {
-  value = azurerm_resource_group.example.id
+output "vm_id" {
+  value = azurerm_virtual_machine.example.id
 }
 
-output "resource_group_name" {
-  value = azurerm_resource_group.example.name
+output "vm_ip_address" {
+  value = azurerm_virtual_machine.example.private_ip_address
 }
 
-output "resource_group_location" {
-  value = azurerm_resource_group.example.location
-}
+// Add more outputs as needed
