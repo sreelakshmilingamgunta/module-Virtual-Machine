@@ -13,5 +13,10 @@ variable "vm_size" {
   description = "The size of the virtual machine."
   type        = string
 }
+variable "os_disk_size_gb" {
+  description = "The size of the OS disk in gigabytes."
+  type        = number
+}
+
 
 
