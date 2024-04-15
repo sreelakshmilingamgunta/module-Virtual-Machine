@@ -3,7 +3,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "example" {
-  name     = "1-84403164-playground-sandbox"
+  name     = "resourcegroup name"
   location = "eastus"
 }
 
