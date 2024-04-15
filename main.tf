@@ -3,8 +3,8 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "example" {
-  name     = "sree-resources"
-  location = "West Europe"
+  name     = "1-84403164-playground-sandbox"
+  location = "eastus"
 }
 
 resource "azurerm_virtual_network" "main" {
